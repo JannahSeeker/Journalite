@@ -105,17 +105,15 @@
       align-items: center;
       justify-content: center;
       transition: background-color 0.3s ease, color 0.3s ease;
-      text-align: center;
-      padding: 1rem; /* Optional: provide some padding for very small devices */
     }
     
-    /* Centered and Responsive Text */
+    /* Centered and Styled Text */
     h1 {
-      /* Using clamp() to make the font size fluid between 2rem and 4rem */
-      font-size: clamp(2rem, 5vw, 4rem);
+      font-size: 4rem;
       letter-spacing: 0.1em;
       color: var(--accent-color);
       font-weight: 300;
+      text-align: center;
     }
   </style>
 </head>
